@@ -96,14 +96,12 @@ header{
 /*FOTO PERSONAL*/
 #persona{
     padding: 50px 50px;
-    width: 15%;
-    height: 25%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #persona img{
-    width: 100%;
+
     border-radius: 100%;
 }
 #persona div{
@@ -150,5 +148,9 @@ header{
     }
     #check:checked ~ .menu{
         right: 0;
+    }
+    /*Persona*/
+    #persona{
+        flex-direction: column;
     }
 }
