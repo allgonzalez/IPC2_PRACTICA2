@@ -132,6 +132,7 @@ header{
   
     margin-left: 5px;
     margin-right: 5px;
+    padding-top: 110px;
 }
 #persona div.cont3{
     background: rgba( 60, 3, 9, 0.2 );
@@ -140,7 +141,7 @@ header{
     -webkit-backdrop-filter: blur( 5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
+
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -224,7 +225,9 @@ header{
     /*Persona*/
     #persona{
         flex-direction: column;
-        margin-bottom: 25px;
-        margin-top: 25px;
+       
+    }
+    #persona div.cont2{
+        padding-top: 0px;
     }
 }
