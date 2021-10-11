@@ -99,22 +99,74 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
+
 #persona img{
 
     border-radius: 100%;
 }
+
 #persona div{
     padding: 30px 30px;
 }
+
+#persona div.cont1{
+    background: rgba( 199, 199, 62, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#persona div.cont2{
+    background: rgba( 5, 5, 206, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#persona div.cont3{
+    background: rgba( 60, 3, 9, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 #persona div h4{
     color: #006FF5;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+#persona div, li{
     font-size: 20px;
     margin: 15px 0px;
 }
 #persona div p{
     font-size: 18px;
 }
+
+/*
+#persona div.quien-soy{
+    background-color: #28EABB;
+   
+    margin-top: 180px;
+}
+*/
+
 
 /*ICONOS*/
 #iconos{
@@ -134,7 +186,9 @@ header{
 .contenido-iconos div a{
     color: black;
 }
-
+.contenido-iconos div h4{
+    color: blue;
+}
 /*Responsive*/
 
 @media(max-width: 678px){
@@ -170,5 +224,7 @@ header{
     /*Persona*/
     #persona{
         flex-direction: column;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 }
