@@ -1,5 +1,8 @@
 /*RESET*/
 
+body{
+    background-color: white;
+}
 
 *{
     padding: 0px;
@@ -17,7 +20,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 5px #000;
+    
 }
+
+
 .logo{
     text-transform: uppercase;
     color: #00B0CB;
@@ -50,6 +57,7 @@ header{
 .esconder-menu:hover{
     color: #00B0CB;
 }
+
 #check{
     display: none;
 }
