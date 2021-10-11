@@ -116,6 +116,24 @@ header{
     font-size: 18px;
 }
 
+/*ICONOS*/
+#iconos{
+    padding: 0px 50px;
+    background-color: #8CADD5;
+}
+#contenido-iconos{
+    padding: 50px 50px 20px 50px;
+    display : flex;
+    justify-content: center;
+
+}
+.contenido-iconos div{
+    flex : 1;
+    margin: 20px 0px;   
+}
+.contenido-iconos div a{
+    color: black;
+}
 
 /*Responsive*/
 
